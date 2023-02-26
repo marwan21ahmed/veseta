@@ -1,0 +1,164 @@
+*
+{
+    border: 1px soli;
+}
+html
+{
+    height: 100%;
+}
+body
+{
+    height: 100%;
+    margin: 0px;
+}
+@font-face {
+    font-family: "symbol";
+    src: url(font/fa-solid-900.eot),url(font/fa-solid-900.svg),
+         url(font/fa-solid-900.ttf),url(font/fa-solid-900.woff),
+         url(font/fa-solid-900.woff2);
+}
+.maincon
+{
+    width: 100%;
+    height: 100%;
+}
+.stepscontent
+{
+    width: 100%;
+    height: 100%;
+    background-image: url("../New folder (2)/282E464A-CD1B-4970-8A93-A42FC70A8E7D.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.steps
+{
+    margin-top: 7%;
+    border: 1px soli gold;
+    height: 60%;
+    width: 95%;
+}
+.steps>.row
+{
+    height: 25%;
+    width: 30%;
+    margin-left: 73%;
+    margin-right: 0px;
+    border: 1px soli rgb(0, 255, 98);
+}
+.col-10,.col-9
+{
+    direction: rtl;
+    text-align: right;
+    height: 100%;
+    width: 30%;
+    border: 1px soli red;
+}
+.stepsheader
+{
+    height: 50%;
+    display: block;
+    border-radius: 4%/30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-decoration: underline;
+    color: #0097CC;
+    font-size: 130%;
+    font-weight: 500;
+    background: linear-gradient(90deg,#FFFFFF 81%,#86D7F3 81%,#00AAE6 100%);
+    box-sizing: border-box;
+    padding-right: 15%;
+}
+
+.stepsheader::before
+{
+    content: "";
+    display: block;
+    height: 40%;
+    width: 14%;
+    position: absolute;
+    right: 6%;
+    background-image: url("../New folder (2)/Picture1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.step1,.step2,.step3
+{
+    height: 80%;
+    display: block;
+    border-radius: 5%/15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #0097CC;
+    font-size: 130%;
+    box-sizing: border-box;
+    padding-right: 10%;
+    padding-left: 8%;
+}
+.step1::before,
+.step2::before,
+.step3::before
+{
+    content: "";
+    display: block;
+    height: 60%;
+    width: 2%;
+    background-color: #00B0F0;
+    margin-left: 9%;
+}
+.stepsstyleysec
+{
+    width: 100%;
+    height: 14%;
+    background-color: #F2F2F2;
+}
+.security
+{
+    height: 100%;
+    width: 60%;
+    margin-left: 15%;
+    display: flex;
+}
+.aboutsecurity
+{
+    border-radius: 50%;
+    height: 140%;
+    width: 16%;
+    margin-top: -8%;
+    background-color: white;
+    box-shadow: inset 0px 0px 10px rgb(117, 117, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.lockicon
+{
+    font-family: "symbol";
+    font-size: 450%;
+    color: #0082B0;
+}
+.securitytxt
+{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-top: -5.5%;
+    margin-left: -5%;
+    background-color: white;
+    height: 90%;
+    width: 55%;
+    z-index: 0;
+    color: #0097CC;
+    box-sizing: border-box;
+    padding-left: 7%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    font-size: 145%;
+}

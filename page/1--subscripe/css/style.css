@@ -1,0 +1,99 @@
+*
+{
+    border: 1px soli;
+}
+html
+{
+    height: 100%;
+}
+body
+{
+    height: 100%;
+    margin-top: 0px;
+}
+@font-face {
+    font-family: ;
+    src: url();
+}
+.maincon
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcomesec
+{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+.leftdoctorphoto
+{
+    height: 100%;
+    width: 45%;
+    background: url(../photo/iStock-875835776_web.jpg);
+    background-position: left 30% center;
+    background-repeat: no-repeat;
+    background-size: 140% 100%;
+}
+.txt
+{
+    height: 100%;
+    width: 55%;
+    background-color: #15C2FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.header
+{
+    color: #00668A;
+    font-size: 225%;
+    font-weight: 700;
+    width: 76%;
+    text-align: center;
+    margin-top: 8%;
+}
+.signuptext
+{
+    text-align: right;
+    color: white;
+    font-size: 170%;
+    width: 70%;
+    margin-top: -15%;
+    margin-right: -4%;
+    line-height: 1.5;
+}
+.signupbutton
+{
+    color: white;
+    height: 8%;
+    width: 20%;
+    border-radius: 20%/50%;
+    border: 2.5px solid white;
+    font-size: 180%;
+    margin-top: -10%;
+    background-color: #15C2FF;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+.signupbutton:hover
+{
+    background-color: #fbfeff;
+    color: #15C2FF;
+}
+.signupbutton>a,.signupbutton>a:link,
+.signupbutton>a:visited,.signupbutton>a:hover,
+.signupbutton>a:active
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}

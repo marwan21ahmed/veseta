@@ -1,0 +1,30 @@
+    <button onclick="test()">click</button>
+        <button onclick="dark()">click</button>
+        <form>
+            <input type="radio" id="eg" name="fav_language" value="eg">
+            <label for="eg">pound</label><br>
+            <input type="radio" id="dollar" name="fav_language" value="dollar">
+            <label for="dollar">$</label><br>
+            <input type="number" placeholder="quantity" id="number">
+            <button type="button" onclick="change()">change</button>
+            <br>
+            <p id="result"></p>
+            <p>
+                Select a radio button and click on Submit.
+            </p>
+            
+            Gender:
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Others">Others
+            
+            <br>
+            
+            <button type="button" onclick="displayRadioValue()">
+                Submit
+            </button>
+            
+            <br>
+            
+            <div id="result"></div>
+        </form>

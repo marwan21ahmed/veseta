@@ -1,0 +1,32 @@
+.darkback
+{
+    background-color: #404040;
+}
+.darktopstyle1
+{
+    background: linear-gradient(181.70deg,transparent 0%,transparent 48%,#262626 50%,#262626 100%);
+}
+.darktopstyle2
+{
+    background: linear-gradient(179deg,#7F7F7F 0%,#7F7F7F 43%,transparent 45%,transparent 100%);
+}
+.darkbottomstyle2
+{
+    background: linear-gradient(359deg,#7F7F7F 0%,#7F7F7F 43%,transparent 45%,transparent 100%);
+}
+.darkbottomstyle1
+{
+    background: linear-gradient(1.7deg,transparent 0%,transparent 48%,#262626 50%,#262626 100%);
+}
+.darkspeheader
+{
+    color: white;
+}
+.darkspetext
+{
+    color: #D9D9D9;
+}
+.darkphoto
+{
+    filter: grayscale(98%);
+}

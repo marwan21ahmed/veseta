@@ -1,0 +1,26 @@
+.dark
+{
+    background-color: #404040;
+}
+.darkheadertxt
+{
+    color: white;
+}
+.darkshowmore
+{
+    color: #BFBFBF;
+}
+.darkgcover
+{
+    background: linear-gradient(0deg, #404040 10%, transparent 100%);
+    background-size: 100% 150%;
+    background-repeat: repeat;
+}
+.darkbrightness
+{
+    filter: brightness(80%);
+}
+.darkprice
+{
+    background-color: #666666;
+}

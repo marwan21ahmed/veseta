@@ -1,0 +1,124 @@
+*
+{
+    border: 1px soli;
+}
+html
+{
+    height: 100%;
+}
+body
+{
+    height: 100%;
+    margin: 0px;
+}
+@font-face {
+    font-family: ;
+    src: url();
+}
+.maincon
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.back1,.back11
+{
+    width: 80%;
+    height: 5%;
+    background-color: #15C2FF;
+}
+.back1
+{
+    background: linear-gradient(181.70deg,transparent 0%,transparent 48%,#15C2FF 50%,#15C2FF 100%);
+    transform: rotate(3deg);
+    z-index: 1;
+}
+.back11
+{
+    background: linear-gradient(1.7deg,transparent 0%,transparent 48%,#15C2FF 50%,#15C2FF 100%);
+    transform: rotate(3deg);
+    z-index: 1;
+    margin-top: -0.08%;
+}
+.back2,.back22
+{
+    width: 80%;
+    height: 4%;
+    background-color: #00668A;
+}
+.back2
+{
+    background: linear-gradient(179deg,#00668A 0%,#00668A 43%,transparent 45%,transparent 100%);
+    transform: rotate(3deg);
+    z-index: 1;
+    margin-top: -0.08%;
+}
+.back22
+{
+    background: linear-gradient(359deg,#00668A 0%,#00668A 43%,transparent 45%,transparent 100%);
+    transform: rotate(3deg);
+    z-index: 1;
+}
+.specontent
+{
+    width: 80%;
+    height: 70%;
+    z-index: 0;
+    background-color: white;
+}
+.spe
+{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.spehead
+{
+    color: #15C2FF;
+    font-size: 260%;
+    margin-top: 3%;
+}
+.spcheadtxt
+{
+    color: #7F7F7F;
+    font-size: 120%;
+    width: 20%;
+    text-align: center;
+    margin-top: 2%;
+}
+.spedetails
+{
+    width: 100%;
+    height: 60%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.about
+{
+    width: 20%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutspeimg
+{
+    width: 40%;
+    height: 40%;
+}
+.aboutdoctorstxt
+{
+    margin-top: 6%;
+    text-align: center;
+    width: 80%;
+    color: #7F7F7F;
+    font-size: 105%;
+}
